@@ -25,3 +25,10 @@ while numero_usuario != numero_secreto:
         print("🔻 El número secreto es más pequeño.\n")
     else:
         print("🔺 El número secreto es más grande.\n")
+
+jugar_otra_vez = "s"
+while jugar_otra_vez.lower() == "s":
+    jugar()
+    jugar_otra_vez = input("\n🔁 ¿Quieres jugar otra vez? (s/n): ")
+
+print("\n👋 ¡Gracias por jugar!")
